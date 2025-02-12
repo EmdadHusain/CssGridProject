@@ -1,0 +1,391 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>me.html</title>
+  <link rel="stylesheet" href="css/all.min-V6.css">
+  <link rel="stylesheet" href="css/fontawesome.min-V6.css">
+  <link rel="stylesheet" href="new.css">
+</head>
+
+<body>
+  <div class="grid_container">
+    <input type="radio" name="slide" id="menuBtn">
+    <input type="radio" name="slide" id="cancelBtn">
+
+    <aside class="sidebar">
+      <label for="cancelBtn" class="mobile cancel_label"><i class="fas fa-times"></i></label>
+      <div class="logo_area">
+        <img src="img/logo.png" alt="">
+        <span class="logo_text">Vuexy</span>
+      </div>
+
+      <nav>
+        <ul>
+          <li class="menu_item">
+            Dashboard
+            <span class="badge primary">3</span>
+          </li>
+          <li class="menu_item active">Analytics</li>
+          <li class="menu_item">CRM</li>
+          <li class="menu_item">eCommerce</li>
+          <li class="menu_item">Layouts</li>
+        </ul>
+
+        <div class="nav_section">
+          <div class="section_title">Apps &amp; Pages</div>
+          <ul>
+            <li class="menu_item">Calendar</li>
+            <li class="menu_item">
+              Invoice
+              <span class="badge">2</span>
+            </li>
+            <li class="menu_item">Users</li>
+            <li class="menu_item">Roles &amp; Permissions</li>
+            <li class="menu_item">Pages</li>
+            <li class="menu_item">Authentication</li>
+            <li class="menu_item">Wizard Examples</li>
+            <li class="menu_item">Modal Examples</li>
+          </ul>
+        </div>
+
+        <div class="nav_section">
+          <div class="section_title">Components</div>
+          <ul>
+            <li class="menu_item">
+              Card
+              <span class="badge">4</span>
+            </li>
+            <li class="menu_item">User Interface</li>
+            <li class="menu_item">Extended UI</li>
+            <li class="menu_item">Icons</li>
+          </ul>
+        </div>
+
+        <div class="nav_section">
+          <div class="section_title">Forms &amp; Tables</div>
+          <ul>
+            <li class="menu_item">Form Elements</li>
+            <li class="menu_item">Form Layouts</li>
+          </ul>
+        </div>
+      </nav>
+    </aside>
+    <header class="header">
+      <div class="left_header">
+        <label class="menu_label mobile" for="menuBtn"><i class="fas fa-bars"></i></label>
+        <div class="search_container">
+          <svg class="search_icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <path d="M21 21l-4.35-4.35"></path>
+          </svg>
+          <input type="text" placeholder="Search (Ctrl+/)">
+        </div>
+      </div>
+
+      <div class="header_controls">
+        <img class="country_flag" src="img/usaFlag.png" alt="US flag">
+
+        <svg class="control_icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>
+        </svg>
+
+        <svg class="control_icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path>
+        </svg>
+
+        <img class="profile_img" src="img/profileImg.png" alt="Profile">
+      </div>
+    </header>
+    <div class="congrat card">
+      <div class="left_congrat">
+        <div class="card_title">
+          <p class="congratulations">
+            Congratulations John <span class="sparkle">✨</span>
+          </p>
+        </div>
+        <p class="subtitle">Best seller of the month</p>
+        <div class="amount">$48.9k</div>
+        <button class="boxed_btn">View Sales</button>
+      </div>
+      <img src="img/CongratImg.png" alt="Avatar">
+    </div>
+
+    <div class="statics card">
+      <div class="statistics_header">
+        <h2 class="statistics_title">Statistics</h2>
+        <span class="updated_text">Updated 1 month ago</span>
+      </div>
+      <div class="statistics_grid">
+        <div class="stat_item">
+          <div class="stat_icon icon_purple">🛍️</div>
+          <div class="stat_info">
+            <div class="stat_value">230k</div>
+            <div class="stat_label">Sales</div>
+          </div>
+        </div>
+        <div class="stat_item">
+          <div class="stat_icon icon_blue">👥</div>
+          <div class="stat_info">
+            <div class="stat_value">8.549k</div>
+            <div class="stat_label">Customers</div>
+          </div>
+        </div>
+        <div class="stat_item">
+          <div class="stat_icon icon_red">🛍️</div>
+          <div class="stat_info">
+            <div class="stat_value">1.423k</div>
+            <div class="stat_label">Products</div>
+          </div>
+        </div>
+        <div class="stat_item">
+          <div class="stat_icon icon_green">💰</div>
+          <div class="stat_info">
+            <div class="stat_value">$9745</div>
+            <div class="stat_label">Revenue</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Profit Wrapper -->
+
+    <!-- First Card -->
+    <div class="card profit_card">
+      <div class="card_title">
+        <p class="congratulations">82.5k <span class="sparkle">✨</span></p>
+        <p class="subtitle">Experiences</p>
+      </div>
+      <div class="amount">78%</div>
+      <p class="subtitle">We Experience more than ever month</p>
+    </div>
+
+    <!-- Second Card -->
+    <div class="card profit_card dusra_profit">
+      <div class="card_title">
+        <p class="congratulations">624k <span class="sparkle">✨</span></p>
+        <p class="subtitle">Profit</p>
+      </div>
+      <div class="amount negative">-8.24%</div>
+      <p class="subtitle">Last Month</p>
+    </div>
+
+    <!-- Report Area -->
+    <div class="revenue-report card">
+      <div class="left_revenue">
+        <div class="report_header">
+          <h2>Revenue Report</h2>
+          <div class="legend">
+            <a href="#"><span class="earning">●</span> Earning</a>
+            <a href="#"><span class="expense">●</span>Expense</a>
+          </div>
+        </div>
+        <img src="img/RevenueImg.png" alt="">
+      </div>
+      <div class="rigth_revenue">
+        <select class="year-selector brdr_btn">
+          <option>2022</option>
+          <option>2023</option>
+        </select>
+        <div class="budget">
+          <div class="budget-amount">$25,825</div>
+          <p class="budget-text">Budget: $6,800</p>
+        </div>
+        <img src="img/right_revenue.png" alt="">
+
+        <button class="boxed_btn">Increase Budget</button>
+      </div>
+    </div>
+    <div class="leads_card card">
+              <div class="left_leads">
+        <h3 class="leads_title">Generated Leads</h3>
+        <p class="leads_subtitle">Monthly Report</p>
+        <div class="leads_number">4,350</div>
+        <div class="leads_growth">
+          <span>↑</span>
+          <span>15.8%</span>
+        </div>
+      </div>
+          <div class="right_leads"><img src="img/circle.png" alt="" class="progress_img"></div>
+      <!-- <div class="progress_ring">
+        <svg width="100" height="100" viewBox="0 0 100 100">
+          <circle
+            class="progress_ring_circle"
+            cx="50"
+            cy="50"
+            r="45"
+          ></circle>
+          <circle
+            class="progress_ring_progress"
+            cx="50"
+            cy="50"
+            r="45"
+          ></circle>
+        </svg>
+        <div class="progress_text">184</div>
+      </div> -->
+    </div>
+
+    <!-- earning_reports -->
+    <div class="card earning_report last_card">
+      <h2 class="card_title">Earning Reports</h2>
+      <p class="card_subtitle">Weekly Earnings Overview</p>
+
+      <div class="earnings_item">
+        <div class="earnings_icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4338ca" stroke-width="2">
+            <circle cx="12" cy="12" r="10"></circle>
+            <path d="M12 6v6l4 2"></path>
+          </svg>
+        </div>
+        <div class="earnings_content">
+          <div>
+            <h3>Net Profit</h3>
+            <h4>12.4k Sales</h4>
+          </div>
+          <div class="earnings_right">
+            <span class="earnings_amount">$1,619</span>
+            <span class="trend_arrow">^</span>
+            <span class="trend_value">4.2%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="earnings_item">
+        <div class="earnings_icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2">
+            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+          </svg>
+        </div>
+        <div class="earnings_content">
+          <div>
+            <h3>Total Income</h3>
+            <h4>Sales, Affiliation</h4>
+          </div>
+          <div class="earnings_right">
+            <span class="earnings_amount">$3,571</span>
+            <span class="trend_arrow">^</span>
+            <span class="trend_value">3.1%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="earnings_item">
+        <div class="earnings_icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#666666" stroke-width="2">
+            <rect x="3" y="3" width="18" height="18" rx="2"></rect>
+            <path d="M3 9h18"></path>
+          </svg>
+        </div>
+        <div class="earnings_content">
+          <div>
+            <h3>Total Expenses</h3>
+            <h4>ADVT, Marketing</h4>
+          </div>
+          <div class="earnings_right">
+            <span class="earnings_amount">$430</span>
+            <span class="trend_arrow">^</span>
+            <span class="trend_value">2.1%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Popular_products -->
+    <div class="card popular_products last_card">
+      <h2 class="card_title">Popular Products</h2>
+      <p class="card_subtitle">Total 10.4k Visitors</p>
+
+      <div class="product_list">
+        <div class="product_item">
+          <div class="product_image">
+            <img src="https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-13-01.jpg" alt="iPhone 13">
+          </div>
+          <div class="product_details">
+            <p class="product_name">Apple iPhone 13</p>
+            <p class="product_id">Item: #FXZ-4567</p>
+          </div>
+          <div class="product_price">$999.29</div>
+        </div>
+
+        <div class="product_item">
+          <div class="product_image">
+            <img src="https://images-cdn.ubuy.co.in/659833ee78f98b669817dc34-nike-air-jordan-1-mid-men-s-basketball.jpg" alt="Nike Air Jordan">
+          </div>
+          <div class="product_details">
+            <p class="product_name">Nike Air Jordan</p>
+            <p class="product_id">Item: #FXZ-3456</p>
+          </div>
+          <div class="product_price">$72.40</div>
+        </div>
+
+        <div class="product_item">
+          <div class="product_image">
+            <img src="https://media.gettyimages.com/id/80227789/photo/japans-electronics-giant-sony-unveils-the-worlds-first-digital-noise-cancelling-headphone-mdr.jpg?s=612x612&amp;w=gi&amp;k=20&amp;c=8BQRK0flBm9hrqvUByE5XEekt6AVNBPa4KugR3ZVGAg=" alt="Sony Studio Headphones">
+          </div>
+          <div class="product_details">
+            <p class="product_name">Sony Studio Headphones</p>
+            <p class="product_id">Item: #FXZ-9765</p>
+          </div>
+          <div class="product_price">$99.90</div>
+        </div>
+      </div>
+    </div>
+    <!-- Sales -->
+    <div class="card sales_order_card last_card">
+      <div class="sales_header">
+        <div>
+          <h2 class="card_title">Sales by Orders</h2>
+          <p class="card_subtitle">62 deliveries in progress</p>
+        </div>
+        <div class="menu_dots">⋮</div>
+      </div>
+
+      <nav class="sales_tabs">
+        <ul>
+          <li><a href="#" class="active">Active</a></li>
+          <li><a href="#">Links</a></li>
+          <li><a href="#">Links</a></li>
+          <li><a href="#">Denied</a></li>
+        </ul>
+      </nav>
+
+      <div class="order_details">
+        <div class="order_info">
+          <div class="sender_section">
+            <div class="sender_icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 8v8m-4-4h8"></path>
+              </svg>
+            </div>
+            <div>
+              <div class="info_label">SENDER</div>
+              <div class="info_name">Myrtle Ullrich</div>
+              <div class="info_address">
+                101 Boulder, California(CA), 95959
+              </div>
+            </div>
+          </div>
+
+          <div class="receiver_section">
+            <div class="receiver_icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M8 12h8"></path>
+              </svg>
+            </div>
+            <div>
+              <div classf="info_label">RECEIVER</div>
+              <div class="info_name">Barry Schowalter</div>
+              <div class="info_address">
+                939 Orange, California(CA), 92118
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div> <!--./grid_container -->
+  <script src="js/new.js"></script>
+
+
+</body></html>
